@@ -38,7 +38,7 @@ function Trends() {
         },
     ]
   return (
-    <div className='pt-10 p-10'>
+    <div className='pt-10 p-10 py-0 bg-gradient-to-b from-black to-gray-900'>
         <div className='font-bold text-2xl '>Trending Now</div>
             <div className='flex gap-10   overflow-scroll hide-scrollbar'>
         {movies.map((movie , index) => {
